@@ -1,0 +1,127 @@
+.crop-selection {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 200px;
+  background-color: #fff;
+  border: 1px solid #fffbfb;
+  width: 23%;
+  height: 40px;
+  align-items: center;
+  margin: 10px;
+  margin-left: 15px;
+}
+.crop-tabs {
+    display: flex;
+    gap: 10px;
+    font-family: 'Work Sans';
+    margin-left: 3px;
+    /* margin: 10px; */
+    /* height: 20px; */
+    /* margin-bottom: 30px; */
+  }
+  
+  .crop-tabs button {
+    background: none;
+    border: none;
+    margin-right: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Work Sans';
+  }
+  .crop-tabs button.active {
+    color: green;
+    position: relative;
+  }
+  .crop-tabs button.active::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: green;
+    position: absolute;
+    bottom: -2px; 
+    left: 0;
+  }
+  .line{
+    margin-bottom: 20px;
+    color: rgb(238, 238, 247);
+  }
+  .crop-tabs .active a {
+    color: #28a745;
+  
+  }
+  .tobacco {
+    color: #bdb8b8;
+    /* margin:-12px; */
+    /* color: #e0e9ec; */
+  }
+  
+  .ginger {
+    color: #bdb8b8;
+        margin:0  20px
+  }
+  
+  .field-id {
+    color: #bdb8b8;
+    margin: 20px;
+    font-family: 'Work Sans';
+  
+  }
+  
+  .field-Location {
+    color: #bdb8b8;
+    margin: 20px;
+    font-family: 'Work Sans';
+  
+  }
+  
+  .field {
+    flex-direction: row;
+  }
+  
+  .field-container {
+    border: 1px solid #f7f3f3;
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    width: 95%;
+    height: 80px;
+    margin: 10px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    /* border-radius: 10px; */
+    
+  }
+  .hr-line{
+   /* width: '90%'; color: 'red'; background-color: 'lightblack'; height: '1px'; border: 'none' ; */
+  
+  }
+  .text{
+    margin: 10px;
+    font-weight: 500;
+  }
+  .no{
+    margin: 10px;
+  }
+  .phno-text{
+    margin: 10px;
+    font-weight: 500;
+  }
+  .state-name{
+    margin: 10px;
+    font-weight: 500;
+  }
+  .number{
+    margin: 20px;
+    font-weight: 500;
+   /* margin-bottom: 20px; */
+  }
+  .fl{
+    margin: 20px;
+    font-weight: 500;
+  }
+  .Crop-monitoring{
+    /* margin: 0px; */
+    /* padding: 10px; */
+  }

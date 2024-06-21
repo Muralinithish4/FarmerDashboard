@@ -1,0 +1,97 @@
+.stage{
+    /* padding-top: 15px; */
+    margin: 20px;
+    display: flex;
+    gap: 140px;
+  }
+.soil{
+    margin: 20px;
+    font-weight: 500;
+  }
+  .child-soil{
+    height: 30px;
+  }
+  .stage-view{
+    margin: 20px;
+    display: flex;
+    gap: 25px;
+    padding-top: 50px;
+  }
+  .stage-arrow{
+    gap: 150px;
+    color: #28a745;
+  }
+  .view {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .view a{
+    color: #28a745;
+  }
+  .stage-container{
+    background-color: #fff;
+    border: 1px solid #fff;
+    width: 280px;
+    height: 200px;
+    margin: 10px;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 15px;
+  }
+  .parent-stage{
+    display: flex;
+  
+  }
+  .Crop-monitoring{
+    display: flex;
+  }
+  .outer-circle-stage1{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(190, 236, 190);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner-circle-stage1{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(46, 133, 50);
+    border-radius: 50%;
+  }
+  .outer-circle-stage2{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(233, 216, 170);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner-circle-stage2{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(235, 136, 56);
+    border-radius: 50%;
+  }
+  .outer-circle {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(231, 211, 211);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-circle {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(214, 101, 101);
+    border-radius: 50%;
+  }
+  

@@ -1,0 +1,83 @@
+.arrow{
+    width: 30px;
+    height: 30px;
+    background-color: #f7fcf8;
+    margin: 20px;
+    color: #28a745;
+    border-radius: 7px;
+    gap: 20px;
+  }
+  .flex {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    /* margin-left: 50px; */
+    align-items: center;
+  }
+.farmer-info {
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    background: rgb(242 241 249);
+    border-radius: 10px;
+    height: 200px;
+    width: 95%;
+    margin-left: 15px;
+  }
+  .farmer-photo {
+    display: flex;
+    padding: 10px;
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    background-image: url(logo1.png);
+    align-items: center;
+  }
+  .farmer-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* color: #bdb8b8; */
+  }
+  .name {
+    color: #bdb8b8;
+    margin: 10px;
+    font-family: 'Work Sans';
+  }
+  
+  .id {
+    color: #bdb8b8;
+    margin: 10px;
+    font-family: 'Work Sans';
+  
+  }
+  
+  .phno {
+    color: #bdb8b8;
+    margin: 10px;
+    font-family: 'Work Sans';
+  
+  }
+  
+  .location {
+    color: #bdb8b8;
+    margin: 10px;
+    font-family: 'Work Sans';
+  
+  }
+
+  .parent-container {
+    align-items: center;
+    display: flex;
+    gap: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .child-container {
+    align-items: center;
+    display: flex;
+    gap: 300px;
+  }

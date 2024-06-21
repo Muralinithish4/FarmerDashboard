@@ -1,0 +1,43 @@
+
+.regulation {
+    padding: 10px;
+    background: ghostwhite;
+  }
+  
+  .regulation-cards {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #faf9f9;
+    padding: 20px;
+    /* width: calc(33.33% - 20px); */
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 287px;
+    height: 200px;
+    
+  }
+  .card button{
+    color: #e5f0e7;
+    /* color: #e9eff1; */
+  }
+  .view-btn{
+    width: 100%;
+  }
+  
+  .img-container{
+    display: flex;
+    gap: 100px;
+    font-weight: 500;
+  }
+  .img-container p{
+    font-weight: 500;
+  }
+  .ID{
+    display: flex;
+  }
+  .global{
+    font-weight: 500;
+  }
